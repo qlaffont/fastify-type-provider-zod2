@@ -52,7 +52,10 @@
       "lcov"
     ],
     "preset": "ts-jest",
-    "testEnvironment": "jsdom"
+    "testEnvironment": "jsdom",
+    "collectCoverageFrom" : [
+      "src/index.ts"
+    ]
   },
   "devDependencies": {
     "@fastify/swagger": "^8.7.0",
