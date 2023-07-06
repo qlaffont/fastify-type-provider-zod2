@@ -1,3 +1,4 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/9079044bcd955c2a6d59/maintainability)](https://codeclimate.com/github/qlaffont/fastify-type-provider-zod2/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/9079044bcd955c2a6d59/test_coverage)](https://codeclimate.com/github/qlaffont/fastify-type-provider-zod2/test_coverage) ![npm](https://img.shields.io/npm/v/fastify-type-provider-zod2) ![npm](https://img.shields.io/npm/dm/fastify-type-provider-zod2) ![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/fastify-type-provider-zod2) ![NPM](https://img.shields.io/npm/l/fastify-type-provider-zod2)
 # fastify-type-provider-zod2
 
 Fastify Type provider for Zod.

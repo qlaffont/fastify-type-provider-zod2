@@ -26,14 +26,14 @@
     }
   },
   "name": "fastify-type-provider-zod2",
-  "author": "flexper",
+  "author": "qlaffont",
   "repository": {
     "type": "git",
-    "url": "https://github.com/flexper/fastify-type-provider-zod2.git"
+    "url": "https://github.com/qlaffont/fastify-type-provider-zod2.git"
   },
   "bugs": {
-    "url": "https://github.com/flexper/fastify-type-provider-zod2/issues",
-    "email": "contact@flexper.fr"
+    "url": "https://github.com/qlaffont/fastify-type-provider-zod2/issues",
+    "email": "contact@qlaffont.fr"
   },
   "module": "dist/fastify-type-provider-zod2.esm.js",
   "size-limit": [
