@@ -4,10 +4,7 @@ import type {
   FastifySchemaCompiler,
   FastifyTypeProvider,
 } from 'fastify';
-import type {
-  FastifySerializerCompiler,
-  FastifyValidationResult,
-} from 'fastify/types/schema';
+import type { FastifySerializerCompiler } from 'fastify/types/schema';
 import type { z, ZodAny, ZodError, ZodTypeAny } from 'zod';
 import { zodToJsonSchema } from 'zod-to-json-schema';
 import { fromZodError } from 'zod-validation-error';
@@ -133,7 +130,7 @@ export const validatorCompiler: FastifySchemaCompiler<ZodAny> = ({
 }) => {
   //@ts-ignore
   if (schema.safeParse) {
-    return ((data) => {
+    return (data) => {
       try {
         schema.parse(data);
         return { value: data };
@@ -141,7 +138,7 @@ export const validatorCompiler: FastifySchemaCompiler<ZodAny> = ({
         const validationError = fromZodError(e as ZodError);
         return { error: validationError };
       }
-    }) satisfies FastifyValidationResult;
+    };
   }
 
   return ajv.compile(schema);
