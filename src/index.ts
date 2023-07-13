@@ -9,6 +9,7 @@ import type { z, ZodAny, ZodError, ZodTypeAny } from 'zod';
 import { zodToJsonSchema } from 'zod-to-json-schema';
 import { fromZodError } from 'zod-validation-error';
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 type FreeformRecord = Record<string, any>;
 
 const defaultSkipList = [
@@ -103,6 +104,7 @@ export const jsonSchemaTransform = createJsonSchemaTransform({
 function hasOwnProperty<T, K extends PropertyKey>(
   obj: T,
   prop: K,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
 ): obj is T & Record<K, any> {
   return Object.prototype.hasOwnProperty.call(obj, prop);
 }
