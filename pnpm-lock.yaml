@@ -26,8 +26,8 @@ devDependencies:
     specifier: ^8.7.0
     version: 8.7.0
   '@fastify/swagger-ui':
-    specifier: ^1.9.2
-    version: 1.9.2
+    specifier: ^2.0.0
+    version: 2.0.0
   '@jest/globals':
     specifier: 29.7.0
     version: 29.7.0
@@ -1602,8 +1602,8 @@ packages:
       readable-stream: 4.1.0
     dev: true
 
-  /@fastify/swagger-ui@1.9.2:
-    resolution: {integrity: sha512-fglF7ptcAHntoVkTjdCXQHxNW0opPE+YLs1Pq/+f5XMTyJ1zx/hcoBE8Hd2kLWyQVJb0G4U8iue3YY+4ux6MSA==}
+  /@fastify/swagger-ui@2.0.0:
+    resolution: {integrity: sha512-n50C5WA478wDf3dQl1bzBTPpBITiXPLajNCRPO27WqaI4/pDe3j+Suu+rF4rwRRcDoG/ipQneME8WHixjkKvkA==}
     dependencies:
       '@fastify/static': 6.10.2
       fastify-plugin: 4.5.0

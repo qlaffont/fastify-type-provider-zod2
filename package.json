@@ -59,7 +59,7 @@
   },
   "devDependencies": {
     "@fastify/swagger": "^8.7.0",
-    "@fastify/swagger-ui": "^1.9.2",
+    "@fastify/swagger-ui": "^2.0.0",
     "@jest/globals": "29.7.0",
     "@size-limit/preset-small-lib": "11.0.0",
     "@types/jest": "^29.5.0",
