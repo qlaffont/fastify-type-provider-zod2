@@ -60,7 +60,7 @@ devDependencies:
     version: 12.0.0(eslint@8.57.0)
   graphql:
     specifier: ^16.7.1
-    version: 16.7.1
+    version: 16.8.1
   husky:
     specifier: 9.0.11
     version: 9.0.11
@@ -69,7 +69,7 @@ devDependencies:
     version: 29.7.0
   mercurius:
     specifier: ^13.0.0
-    version: 13.0.0(graphql@16.7.1)
+    version: 13.0.0(graphql@16.8.1)
   prettier:
     specifier: 3.2.5
     version: 3.2.5
@@ -1841,12 +1841,12 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@graphql-typed-document-node/core@3.2.0(graphql@16.7.1):
+  /@graphql-typed-document-node/core@3.2.0(graphql@16.8.1):
     resolution: {integrity: sha512-mB9oAsNCm9aM3/SOv4YtBMqZbYj10R7dkq8byBqxGY/ncFwhf2oQzMV+LCRlWoDSEBJ3COiR1yeDvMtsoOsuFQ==}
     peerDependencies:
       graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0
     dependencies:
-      graphql: 16.7.1
+      graphql: 16.8.1
     dev: true
 
   /@humanwhocodes/config-array@0.11.14:
@@ -5547,22 +5547,22 @@ packages:
     resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
     dev: true
 
-  /graphql-jit@0.8.4(graphql@16.7.1):
+  /graphql-jit@0.8.4(graphql@16.8.1):
     resolution: {integrity: sha512-4KRrJ1ROy3Usgbl3eAoUMfdfZCRjkcw9cCGT7QwTUIHm9dPGaSaldxzGUttyjErU0rsYEb6WWyb6mMh5r6lEoQ==}
     peerDependencies:
       graphql: '>=15'
     dependencies:
-      '@graphql-typed-document-node/core': 3.2.0(graphql@16.7.1)
+      '@graphql-typed-document-node/core': 3.2.0(graphql@16.8.1)
       fast-json-stringify: 5.7.0
       generate-function: 2.3.1
-      graphql: 16.7.1
+      graphql: 16.8.1
       lodash.memoize: 4.1.2
       lodash.merge: 4.6.2
       lodash.mergewith: 4.6.2
     dev: true
 
-  /graphql@16.7.1:
-    resolution: {integrity: sha512-DRYR9tf+UGU0KOsMcKAlXeFfX89UiiIZ0dRU3mR0yJfu6OjZqUcp68NnFLnqQU5RexygFoDy1EW+ccOYcPfmHg==}
+  /graphql@16.8.1:
+    resolution: {integrity: sha512-59LZHPdGZVh695Ud9lRzPBVTtlX9ZCV150Er2W43ro37wVof0ctenSaskPPjN7lVTIN8mSZt8PHUNKZuNQUuxw==}
     engines: {node: ^12.22.0 || ^14.16.0 || ^16.0.0 || >=17.0.0}
     dev: true
 
@@ -7450,7 +7450,7 @@ packages:
       object-visit: 1.0.1
     dev: true
 
-  /mercurius@13.0.0(graphql@16.7.1):
+  /mercurius@13.0.0(graphql@16.8.1):
     resolution: {integrity: sha512-gPJGw9qymc2JSee5lUgg5OeQLM7EtLzEWMY7dV2sMwUdh3k8iO3Y22iy6B8TnIX2atpVt2xSpWHRvfiUvH6wuQ==}
     engines: {node: '>=14.19.3'}
     peerDependencies:
@@ -7460,8 +7460,8 @@ packages:
       '@fastify/static': 6.10.2
       '@fastify/websocket': 8.1.0
       fastify-plugin: 4.5.0
-      graphql: 16.7.1
-      graphql-jit: 0.8.4(graphql@16.7.1)
+      graphql: 16.8.1
+      graphql-jit: 0.8.4(graphql@16.8.1)
       mqemitter: 5.0.0
       p-map: 4.0.0
       readable-stream: 4.1.0
