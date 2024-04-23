@@ -16,13 +16,13 @@ importers:
         version: 4.26.2
       zod:
         specifier: ^3.21.4
-        version: 3.23.0
+        version: 3.23.3
       zod-to-json-schema:
         specifier: ^3.21.3
-        version: 3.22.5(zod@3.23.0)
+        version: 3.22.5(zod@3.23.3)
       zod-validation-error:
         specifier: ^3.0.0
-        version: 3.1.0(zod@3.23.0)
+        version: 3.1.0(zod@3.23.3)
     devDependencies:
       '@fastify/swagger':
         specifier: ^8.7.0
@@ -5053,8 +5053,8 @@ packages:
     peerDependencies:
       zod: ^3.18.0
 
-  zod@3.23.0:
-    resolution: {integrity: sha512-OFLT+LTocvabn6q76BTwVB0hExEBS0IduTr3cqZyMqEDbOnYmcU+y0tUAYbND4uwclpBGi4I4UUBGzylWpjLGA==}
+  zod@3.23.3:
+    resolution: {integrity: sha512-tPvq1B/2Yu/dh2uAIH2/BhUlUeLIUvAjr6dpL/75I0pCYefHgjhXk1o1Kob3kTU8C7yU1j396jFHlsVWFi9ogg==}
 
 snapshots:
 
@@ -11381,12 +11381,12 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zod-to-json-schema@3.22.5(zod@3.23.0):
+  zod-to-json-schema@3.22.5(zod@3.23.3):
     dependencies:
-      zod: 3.23.0
+      zod: 3.23.3
 
-  zod-validation-error@3.1.0(zod@3.23.0):
+  zod-validation-error@3.1.0(zod@3.23.3):
     dependencies:
-      zod: 3.23.0
+      zod: 3.23.3
 
-  zod@3.23.0: {}
+  zod@3.23.3: {}
