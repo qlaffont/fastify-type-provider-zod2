@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.0.42 (2024-05-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency fastify to v4.27.0 ([8fbde6c](https://github.com/qlaffont/fastify-type-provider-zod2/commit/8fbde6cc80de0d09431f5ccbdeadefad6fbbb92e))
+
 ### 1.0.41 (2024-05-03)
 
 
