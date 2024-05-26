@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.0.53 (2024-05-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency ajv to v8.14.0 ([24c4567](https://github.com/qlaffont/fastify-type-provider-zod2/commit/24c4567da1fbb7bb15da3a9851d9d45be7748dd9))
+
 ### 1.0.52 (2024-05-22)
 
 ### 1.0.51 (2024-05-21)
