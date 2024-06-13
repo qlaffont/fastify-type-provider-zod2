@@ -28,8 +28,8 @@ importers:
         specifier: ^8.7.0
         version: 8.14.0
       '@fastify/swagger-ui':
-        specifier: ^3.0.0
-        version: 3.1.0
+        specifier: ^4.0.0
+        version: 4.0.0
       '@jest/globals':
         specifier: 29.7.0
         version: 29.7.0
@@ -903,8 +903,8 @@ packages:
   '@fastify/static@7.0.4':
     resolution: {integrity: sha512-p2uKtaf8BMOZWLs6wu+Ihg7bWNBdjNgCwDza4MJtTqg+5ovKmcbgbR9Xs5/smZ1YISfzKOCNYmZV8LaCj+eJ1Q==}
 
-  '@fastify/swagger-ui@3.1.0':
-    resolution: {integrity: sha512-68jm6k8VzvHXkEBT4Dakm/kkzUlPO4POIi0agWJSWxsYichPBqzjo+IpfqPl4pSJR1zCToQhEOo+cv+yJL2qew==}
+  '@fastify/swagger-ui@4.0.0':
+    resolution: {integrity: sha512-ZbVJg4bQHNyd10f6DZftMMuSPKpkh6ePB5TfbZLSjUQmfIDnNYBWhGv8o0iUxYbLAyIz1oa5xqp2e/Z9B7wlFg==}
 
   '@fastify/swagger@8.14.0':
     resolution: {integrity: sha512-sGiznEb3rl6pKGGUZ+JmfI7ct5cwbTQGo+IjewaTvtzfrshnryu4dZwEsjw0YHABpBA+kCz3kpRaHB7qpa67jg==}
@@ -6078,7 +6078,7 @@ snapshots:
       fastq: 1.17.1
       glob: 10.4.1
 
-  '@fastify/swagger-ui@3.1.0':
+  '@fastify/swagger-ui@4.0.0':
     dependencies:
       '@fastify/static': 7.0.4
       fastify-plugin: 4.5.1
@@ -10094,7 +10094,7 @@ snapshots:
   path-scurry@1.10.2:
     dependencies:
       lru-cache: 10.2.2
-      minipass: 7.0.4
+      minipass: 7.1.2
 
   path-scurry@1.11.1:
     dependencies:
