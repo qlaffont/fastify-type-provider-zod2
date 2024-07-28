@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.0.95 (2024-07-28)
+
+
+### Bug Fixes
+
+* **deps:** update dependency zod-to-json-schema to v3.23.2 ([1198039](https://github.com/qlaffont/fastify-type-provider-zod2/commit/11980395d5b462ce7c165d501b32f281f5f1e509))
+
 ### 1.0.94 (2024-07-26)
 
 ### 1.0.93 (2024-07-25)
