@@ -58,7 +58,7 @@
     ]
   },
   "devDependencies": {
-    "@fastify/swagger": "^8.7.0",
+    "@fastify/swagger": "^9.0.0",
     "@fastify/swagger-ui": "^4.0.0",
     "@jest/globals": "29.7.0",
     "@size-limit/preset-small-lib": "11.1.6",
