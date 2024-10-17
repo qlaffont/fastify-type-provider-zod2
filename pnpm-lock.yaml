@@ -29,7 +29,7 @@ importers:
         version: 8.15.0
       '@fastify/swagger-ui':
         specifier: ^4.0.0
-        version: 4.1.1
+        version: 4.2.0
       '@jest/globals':
         specifier: 29.7.0
         version: 29.7.0
@@ -917,8 +917,8 @@ packages:
   '@fastify/static@7.0.4':
     resolution: {integrity: sha512-p2uKtaf8BMOZWLs6wu+Ihg7bWNBdjNgCwDza4MJtTqg+5ovKmcbgbR9Xs5/smZ1YISfzKOCNYmZV8LaCj+eJ1Q==}
 
-  '@fastify/swagger-ui@4.1.1':
-    resolution: {integrity: sha512-0Wj7hX6KghT86haT7ySOtHmNiJpGmdAOXsNx/Q7hUzCthC9Krhu8nU7qNIwBs1JQ+sUDCfir+bkfcw4TjhZKJA==}
+  '@fastify/swagger-ui@4.2.0':
+    resolution: {integrity: sha512-pVutmTm49Pn98FS01E2m+eUH0WGhsHlImowWr9PXQt3rQPArSsocON8qF/8mm0dNLmilwtJZJqdsvFTnCUcapw==}
 
   '@fastify/swagger@8.15.0':
     resolution: {integrity: sha512-zy+HEEKFqPMS2sFUsQU5X0MHplhKJvWeohBwTCkBAJA/GDYGLGUWQaETEhptiqxK7Hs0fQB9B4MDb3pbwIiCwA==}
@@ -3855,8 +3855,8 @@ packages:
     resolution: {integrity: sha512-R4nPAVTAU0B9D35/Gk3uJf/7XYbQcyohSKdvAxIRSNghFl4e71hVoGnBNQz9cWaXxO2I10KTC+3jMdvvoKw6dQ==}
     engines: {node: '>=6'}
 
-  package-json-from-dist@1.0.0:
-    resolution: {integrity: sha512-dATvCeZN/8wQsGywez1mzHtTlP22H8OEfPrVMLNr4/eGa+ijtLn/6M5f0dY8UKNrC2O9UCU6SSoG3qRKnt7STw==}
+  package-json-from-dist@1.0.1:
+    resolution: {integrity: sha512-UEZIS3/by4OC8vL3P2dTXRETpebLI2NiI5vIrjaD/5UtrkFX/tNbwjTSRAGC/+7CAo2pIcBaRgWmcBBHcsaCIw==}
 
   parent-module@1.0.1:
     resolution: {integrity: sha512-GQ2EWRpQV8/o+Aw8YqtfZZPfNRWZYkbidE9k5rpl/hC3vtHHBfGm2Ifi6qWV+coDGkrUKZAxE3Lot5kcsRlh+g==}
@@ -5053,8 +5053,8 @@ packages:
     engines: {node: '>= 14'}
     hasBin: true
 
-  yaml@2.5.1:
-    resolution: {integrity: sha512-bLQOjaX/ADgQ20isPJRvF0iRUHIxVhYvr53Of7wGcWlO2jvtUlH5m87DsmulFVxRpNLOnI4tB6p/oh8D7kpn9Q==}
+  yaml@2.6.0:
+    resolution: {integrity: sha512-a6ae//JvKDEra2kdi1qzCyrJW/WZCgFi8ydDV+eXExl95t+5R+ijnqHJbz9tmMh8FUjx3iv2fCQ4dclAQlO2UQ==}
     engines: {node: '>= 14'}
     hasBin: true
 
@@ -6122,13 +6122,13 @@ snapshots:
       fastq: 1.17.1
       glob: 10.4.5
 
-  '@fastify/swagger-ui@4.1.1':
+  '@fastify/swagger-ui@4.2.0':
     dependencies:
       '@fastify/static': 7.0.4
       fastify-plugin: 4.5.1
       openapi-types: 12.1.3
       rfdc: 1.4.1
-      yaml: 2.5.1
+      yaml: 2.6.0
 
   '@fastify/swagger@8.15.0':
     dependencies:
@@ -8494,7 +8494,7 @@ snapshots:
       jackspeak: 3.4.3
       minimatch: 9.0.5
       minipass: 7.1.2
-      package-json-from-dist: 1.0.0
+      package-json-from-dist: 1.0.1
       path-scurry: 1.11.1
 
   glob@7.2.3:
@@ -10120,7 +10120,7 @@ snapshots:
 
   p-try@2.2.0: {}
 
-  package-json-from-dist@1.0.0: {}
+  package-json-from-dist@1.0.1: {}
 
   parent-module@1.0.1:
     dependencies:
@@ -11403,7 +11403,7 @@ snapshots:
 
   yaml@2.4.5: {}
 
-  yaml@2.5.1: {}
+  yaml@2.6.0: {}
 
   yargs-parser@18.1.3:
     dependencies:
