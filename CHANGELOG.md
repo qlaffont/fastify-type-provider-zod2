@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.0.187 (2025-06-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency zod to v3.25.63 ([#364](https://github.com/qlaffont/fastify-type-provider-zod2/issues/364)) ([4da1411](https://github.com/qlaffont/fastify-type-provider-zod2/commit/4da1411dbae72731549e57f9c213e57aec1218e4))
+
 ### 1.0.186 (2025-06-11)
 
 
